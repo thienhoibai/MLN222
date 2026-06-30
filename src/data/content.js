@@ -422,8 +422,10 @@ export const SUMMARY = {
   ],
   videoNote:
     "Đoạn video ngắn sau đây tóm tắt trọn vẹn vòng lặp quyền lực, tiền bạc và pháp lý — nơi kiến trúc của công lý phải nhường chỗ cho dòng chảy của đồng tiền.",
-  // Video sản phẩm của nhóm (đặt trong public/media). Có thể thay bằng link .mp4 khác.
-  videoUrl: "/media/san-pham.mp4",
+  // Video sản phẩm phát trực tiếp từ Google Drive (không cần upload vào repo).
+  // Lưu ý: file/thư mục trên Drive phải để chế độ "Bất kỳ ai có liên kết".
+  // Có thể thay bằng link YouTube hoặc file .mp4 — component tự nhận diện.
+  videoUrl: "https://drive.google.com/file/d/16VfRRWphgql5dk7G8dgY9MJK5ZO9ubOS/view",
 };
 
 // PHẦN 10 — QR trải nghiệm thêm
