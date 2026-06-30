@@ -3,7 +3,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Presentation, X, Users, Wrench } from "lucide-react";
 import { CREDITS } from "../data/content.js";
 
-const MEMBERS = ["Thành viên 1", "Thành viên 2", "Thành viên 3", "Thành viên 4"];
+const MEMBERS = [
+  "Đặng Trường Huy",
+  "Nguyễn Quốc Tài",
+  "Nguyễn Đạo Thiện",
+  "Nguyễn Trần Quang Vinh",
+  "Trần Huy Hoàng"
+];
 const TOOLS = ["Lên ý tưởng & biên tập", "Tư liệu hình ảnh (Wikimedia)", "Dựng video minh hoạ", "Tham khảo nguồn chính thống"];
 
 export default function ToolsPill() {
