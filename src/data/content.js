@@ -433,8 +433,8 @@ export const EXTRA = {
   desc:
     "Dùng camera điện thoại quét mã QR bên dưới để mở phiên bản web tương tác và tài liệu mở rộng của nhóm.",
   // ⚠️ Thay bằng link thật của nhóm (web đã deploy / Google Drive / Form khảo sát…)
-  qrUrl: "https://hcm-chaebol.vercel.app",
-  qrCaption: "hcm-chaebol.vercel.app",
+  qrUrl: "https://mln-222.vercel.app/",
+  qrCaption: "mln-222.vercel.app",
 };
 
 export const CREDITS = {
