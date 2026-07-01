@@ -77,13 +77,7 @@ export default function AIAppendix() {
                 <div className="relative h-2 w-full overflow-hidden rounded-full bg-ink-800 border border-cream/5">
                   <div
                     className="absolute inset-y-0 left-0 bg-gradient-to-r from-crimson to-gold-500"
-                    style={{
-                      width: item.tool.includes("Gemini")
-                        ? "35%"
-                        : item.tool.includes("ChatGPT")
-                        ? "25%"
-                        : "20%",
-                    }}
+                    style={{ width: `${item.value}%` }}
                   />
                 </div>
                 <div className="mt-2 text-right text-[11px] font-semibold text-gold-300">

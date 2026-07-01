@@ -459,13 +459,22 @@ export const AI_APPENDIX = {
       tool: "Claude",
       role: "Hỗ trợ lập trình giao diện",
       detail: "Hỗ trợ xây dựng cấu trúc mã nguồn React, tối ưu hóa các hiệu ứng chuyển động bằng Framer Motion và thiết kế giao diện Glassmorphism trên nền Tailwind CSS.",
-      ratio: "35% AI · 65% Con người"
+      ratio: "35% AI · 65% Con người",
+      value: 35
     },
     {
       tool: "Google Gemini (Advanced / Flash)",
       role: "Biên tập nội dung & Ý tưởng",
       detail: "Hỗ trợ chuẩn hóa văn phong học thuật, đề xuất ngân hàng câu hỏi trắc nghiệm (Phần 9 Quiz) và tối ưu hóa từ khóa tra cứu tư liệu lịch sử.",
-      ratio: "25% AI · 75% Con người"
+      ratio: "25% AI · 75% Con người",
+      value: 25
+    },
+    {
+      tool: "Google Flow (Google Labs)",
+      role: "Dựng video minh họa",
+      detail: "Sử dụng AI Creative Studio để lên kịch bản phân cảnh, tạo tư liệu hình ảnh và hỗ trợ ghép nối, dựng video tổng kết.",
+      ratio: "30% AI · 70% Con người",
+      value: 30
     }
   ]
 };
