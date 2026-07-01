@@ -453,7 +453,7 @@ export const AI_APPENDIX = {
   kicker: "Phụ lục học thuật",
   title: "Khai báo sử dụng AI (AI Disclosure)",
   desc: "Nhằm đảm bảo tính liêm chính học thuật và minh bạch trong nghiên cứu, nhóm G5 công bố chi tiết về các hạng mục và mức độ hỗ trợ của Trí tuệ nhân tạo (AI) trong dự án này.",
-  pledge: "Cam kết: Mọi thông tin học thuật, số liệu GDP, lịch sử đặc xá đều được các thành viên nhóm đối chiếu trực tiếp với giáo trình Kinh tế chính trị Mác – Lênin (Bộ GD&ĐT) và các nguồn báo chí chính thống (Reuters, Yonhap, BBC) để đảm bảo tính xác thực 100%.",
+  pledge: "Cam kết: Mọi thông tin học thuật, số liệu GDP, lịch sử đặc xá đều được các thành viên nhóm đối chiếu trực tiếp với giáo trình Kinh tế chính trị Mác – Lênin (Bộ GD&ĐT) để đảm bảo tính xác thực 100%.",
   items: [
     {
       tool: "Claude",
