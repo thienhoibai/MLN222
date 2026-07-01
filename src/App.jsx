@@ -10,6 +10,7 @@ import PowerLoop from "./components/PowerLoop.jsx";
 import Timeline from "./components/Timeline.jsx";
 import Summary from "./components/Summary.jsx";
 import Quiz from "./components/Quiz.jsx";
+import AIAppendix from "./components/AIAppendix.jsx";
 import QRSection from "./components/QRSection.jsx";
 import Footer from "./components/Footer.jsx";
 import Chatbot from "./components/Chatbot.jsx";
@@ -46,6 +47,7 @@ export default function App() {
         <Timeline />
         <Summary />
         <Quiz />
+        <AIAppendix />
         <QRSection />
       </main>
 

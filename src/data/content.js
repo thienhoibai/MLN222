@@ -21,6 +21,7 @@ export const NAV = [
   { id: "dong-thoi-gian", label: "Dòng thời gian" },
   { id: "tong-ket", label: "Video" },
   { id: "quiz", label: "Trắc nghiệm" },
+  { id: "phu-luc-ai", label: "Phụ lục AI" },
 ];
 
 export const SECTIONS = [
@@ -33,8 +34,10 @@ export const SECTIONS = [
   { id: "dong-thoi-gian", index: "07", label: "Dòng thời gian" },
   { id: "tong-ket", index: "08", label: "Tổng kết & Video" },
   { id: "quiz", index: "09", label: "Trắc nghiệm" },
-  { id: "qr", index: "10", label: "Trải nghiệm thêm" },
+  { id: "phu-luc-ai", index: "10", label: "Phụ lục AI" },
+  { id: "qr", index: "11", label: "Trải nghiệm thêm" },
 ];
+
 
 // PHẦN 1 — Lý thuyết Lênin
 export const PART1 = {
@@ -444,3 +447,26 @@ export const CREDITS = {
     "Các công cụ được sử dụng để hỗ trợ lên ý tưởng, biên tập nội dung, tạo tư liệu hình ảnh, video minh họa và tham khảo nguồn thông tin chính thống cho bài thuyết trình. Hình ảnh tư liệu: Wikimedia Commons.",
   group: "Nhóm G5 · Kinh tế chính trị Mác – Lênin",
 };
+
+// PHẦN PHỤ LỤC AI — Khai báo sử dụng AI (AI Disclosure)
+export const AI_APPENDIX = {
+  kicker: "Phụ lục học thuật",
+  title: "Khai báo sử dụng AI (AI Disclosure)",
+  desc: "Nhằm đảm bảo tính liêm chính học thuật và minh bạch trong nghiên cứu, nhóm G5 công bố chi tiết về các hạng mục và mức độ hỗ trợ của Trí tuệ nhân tạo (AI) trong dự án này.",
+  pledge: "Cam kết: Mọi thông tin học thuật, số liệu GDP, lịch sử đặc xá đều được các thành viên nhóm đối chiếu trực tiếp với giáo trình Kinh tế chính trị Mác – Lênin (Bộ GD&ĐT) và các nguồn báo chí chính thống (Reuters, Yonhap, BBC) để đảm bảo tính xác thực 100%.",
+  items: [
+    {
+      tool: "Claude",
+      role: "Hỗ trợ lập trình giao diện",
+      detail: "Hỗ trợ xây dựng cấu trúc mã nguồn React, tối ưu hóa các hiệu ứng chuyển động bằng Framer Motion và thiết kế giao diện Glassmorphism trên nền Tailwind CSS.",
+      ratio: "35% AI · 65% Con người"
+    },
+    {
+      tool: "Google Gemini (Advanced / Flash)",
+      role: "Biên tập nội dung & Ý tưởng",
+      detail: "Hỗ trợ chuẩn hóa văn phong học thuật, đề xuất ngân hàng câu hỏi trắc nghiệm (Phần 9 Quiz) và tối ưu hóa từ khóa tra cứu tư liệu lịch sử.",
+      ratio: "25% AI · 75% Con người"
+    }
+  ]
+};
+
